@@ -1,0 +1,18 @@
+var PI = 3.14;
+PI = 42; // stop me from doing this!
+
+/* Write an ES2015 Version */
+
+const PI = 3.14
+
+What is the difference between var and let?
+Var allows you to redeclare the same variable, but let does not.
+
+What is the difference between var and const?
+Var allows you to redeclare and reassign the same variable, while const does not allow either.
+
+What is the difference between let and const?
+You can reassign values to a variable with let, but not with const. With let, you can declare a variable without assigning at the same time; with const, you have to assign when you declare a variable.
+
+What is hoisting?
+Hoisting occurs with var, and it means that javascript will access variables at the top of their scope, even before they are used in the code.
